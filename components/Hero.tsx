@@ -70,7 +70,7 @@ const Hero: React.FC = () => {
               <div className="absolute inset-0 rounded-full border-4 border-indigo-100 animate-pulse"></div>
               <div className="relative w-32 h-32 lg:w-48 lg:h-48 rounded-full overflow-hidden border-4 border-white shadow-2xl bg-slate-200 flex items-center justify-center">
                 <img
-                  src="/resume/1769466011281.jpg"
+                  src="resume\1769466011281.jpg"
                   alt="Rayman Thandi"
                   className="w-full h-full object-cover"
                 />

@@ -24,7 +24,7 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()],
-  base: "/YOUR_REPO_NAME/",   // IMPORTANT for GitHub Pages under /repo/
+  base: "/Soc-Portfolio/",   // IMPORTANT for GitHub Pages under /repo/
   build: {
     outDir: "docs",           // build output folder
     emptyOutDir: true
