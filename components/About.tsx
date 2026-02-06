@@ -18,6 +18,7 @@ const About: React.FC = () => {
       
       {/* Visual flare */}
       <div className="absolute left-0 bottom-0 w-full h-1 bg-gradient-to-r from-transparent via-indigo-400 to-transparent"></div>
+      
     </section>
   );
 };
