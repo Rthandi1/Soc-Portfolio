@@ -1,6 +1,6 @@
 
 import React from 'react';
-
+const base = import.meta.env.BASE_URL;
 const Hero: React.FC = () => {
   return (
     <section className="relative py-12 lg:py-24 overflow-hidden bg-slate-50 border-b border-slate-200">
@@ -48,8 +48,8 @@ const Hero: React.FC = () => {
             </div>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-              <a 
-                href="resume\Rayman Thandi Resume-Cybersecurity.pdf"
+              <a
+                href={`${base}resume/Rayman%20Thandi%20Resume-Cybersecurity.pdf`}
                 className="inline-flex justify-center items-center px-8 py-4 border border-transparent text-lg font-bold rounded-xl text-white bg-indigo-600 hover:bg-indigo-700 shadow-lg hover:shadow-xl transition-all"
                 download="Rayman-Thandi-Resume.pdf"
               >
@@ -69,11 +69,7 @@ const Hero: React.FC = () => {
             <div className="relative">
               <div className="absolute inset-0 rounded-full border-4 border-indigo-100 animate-pulse"></div>
               <div className="relative w-32 h-32 lg:w-48 lg:h-48 rounded-full overflow-hidden border-4 border-white shadow-2xl bg-slate-200 flex items-center justify-center">
-                <img
-                  src="resume\1769466011281.jpg"
-                  alt="Rayman Thandi"
-                  className="w-full h-full object-cover"
-                />
+               <img src={`${base}resume/1769466011281.jpg`} alt="Profile" />
                 <div className="absolute bottom-2 right-2 lg:bottom-4 lg:right-4 w-6 h-6 lg:w-8 lg:h-8 bg-indigo-600 rounded-full border-4 border-white flex items-center justify-center text-white">
                   <svg className="w-3 h-3 lg:w-4 lg:h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" />

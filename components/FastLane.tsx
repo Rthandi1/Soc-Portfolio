@@ -1,10 +1,10 @@
 
 import React from 'react';
 
-
+const base = import.meta.env.BASE_URL;
 const FastLane: React.FC = () => {
   const links = [
-    { label: 'Resume', url: 'resume\\Rayman%20Thandi%20Resume-Cybersecurity.pdf', download: 'public/resume/Rayman_Thandi_Resume-Cybersecurity.pdf', icon: (
+    { label: 'Resume', url: `${base}resume/Rayman%20Thandi%20Resume-Cybersecurity.pdf`, icon: (
       <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" /></svg>
     ) },
     { label: 'LinkedIn', url: 'https://www.linkedin.com/in/rayman-thandi-847b46196', icon: (
@@ -27,7 +27,7 @@ const FastLane: React.FC = () => {
             {links.map((link) => (
               <a 
                 key={link.label}
-                href={link.url}
+                href={link.url} download
                 className="flex items-center text-slate-600 hover:text-indigo-600 font-semibold text-sm transition-colors px-2 py-1"
               >
                 {link.icon}
