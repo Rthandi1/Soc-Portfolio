@@ -67,7 +67,7 @@ const Projects: React.FC = () => {
                   href={project.githubUrl}
                   className="flex-1 bg-indigo-600 text-white px-4 py-2.5 rounded-lg text-sm font-bold hover:bg-indigo-700 transition-colors text-center"
                 >
-                  GitHub Repository
+                  {project.linkLabel || 'GitHub Repository'}
                 </a>
               </div>
             </div>

@@ -55,6 +55,36 @@ export const PROJECTS: Project[] = [
     result: 'Captured 100s+ auth attempts; produced SOC-ready triage notes and dashboards.',
     stack: ['Splunk', 'Linux', 'Cowrie', 'MITRE ATT&CK'],
     githubUrl: '#'
+  },
+  {
+    id: 'log-analyzer-alerting',
+    title: 'Log Analyzer & Alerting System',
+    problem: 'Tier 1 analysts need fast, repeatable alert review on high-volume logs without drowning in low-signal noise.',
+    solution: [
+      'Built a Python + Flask application to process thousands of structured log entries and simulate SOC-style alert triage workflows.',
+      'Implemented detection logic for authentication anomalies, repeated failed logins, and suspicious IP behavior with noise-reduction thresholds.',
+      'Applied event correlation across users, hosts, and source IPs to surface brute-force and abuse patterns.',
+      'Integrated external threat intelligence feeds to enrich indicators with reputation and investigative context.',
+      'Designed alert generation, review, and interpretation views to mirror practical Tier 1 analyst execution.'
+    ],
+    result: 'Delivered a SOC-focused detection pipeline that prioritizes actionable alerts and supports faster triage decisions.',
+    stack: ['Python', 'Flask', 'Cybersecurity Analytics', 'Threat Intelligence'],
+    githubUrl: '#'
+  },
+  {
+    id: 'virtual-labs-btlo',
+    title: 'Virtual Labs | Blue Team Labs Online | Profile',
+    problem: 'SOC analysts must quickly investigate diverse attack scenarios using structured workflows and clear incident documentation.',
+    solution: [
+      'Performed guided SOC-style investigations spanning phishing, malware execution, endpoint compromise, and network intrusion scenarios.',
+      'Executed alert triage, evidence review, IoC extraction, and timeline reconstruction using repeatable investigative playbooks.',
+      'Analyzed logs, host artifacts, and packet captures to determine likely root cause, scope, and potential incident impact.',
+      'Documented findings with concise summaries, explicit assumptions, and recommended response actions aligned with Tier 1 SOC expectations.'
+    ],
+    result: 'Built a portfolio of investigation write-ups that demonstrate practical Tier 1 triage, analysis, and incident communication skills.',
+    stack: ['Blue Team Labs Online', 'SOC Investigations', 'IoC Analysis', 'Packet Analysis'],
+    githubUrl: 'https://blueteamlabs.online/public/user/982329e92c17926ae2bf21',
+    linkLabel: 'BTLO Profile'
   }
 ];
 

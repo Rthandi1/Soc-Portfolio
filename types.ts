@@ -7,6 +7,7 @@ export interface Project {
   result: string;
   stack: string[];
   githubUrl?: string;
+  linkLabel?: string;
   caseStudyUrl?: string;
 }
 
