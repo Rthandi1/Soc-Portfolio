@@ -78,7 +78,7 @@ const Projects: React.FC = () => {
           <div className="inline-block p-1 bg-slate-100 rounded-2xl border border-slate-200">
              <div className="bg-white px-8 py-6 rounded-xl shadow-sm max-w-2xl">
                <h3 className="text-lg font-bold text-slate-900 mb-2">Want to see more technical depth?</h3>
-               <p className="text-slate-600 mb-4">I maintain a repository of 20+ guided SOC investigations and malware analyses using Eric Zimmerman tools and Wireshark.</p>
+               <p className="text-slate-600 mb-4">I maintain a repository of 33+ guided Blue Team investigations</p>
                <a href="#" className="text-indigo-600 font-bold hover:underline flex items-center justify-center">
                  View Virtual Labs Repository
                  <svg className="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" /></svg>
